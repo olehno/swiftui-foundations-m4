@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A49B68D2943C4DD003CEC96 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */; };
 		1ADF2DBA293EAC6C00E6F5FE /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */; };
 		831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */; };
 		831EE68225B0C74D00BACCDD /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE68125B0C74D00BACCDD /* RecipeListView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		831EE67C25B0C74D00BACCDD /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
@@ -88,9 +90,10 @@
 		831EE69025B0C76D00BACCDD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */,
+				1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */,
 				831EE68125B0C74D00BACCDD /* RecipeListView.swift */,
 				831EE6C525B0E0A200BACCDD /* RecipeDetailView.swift */,
-				1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A49B68D2943C4DD003CEC96 /* RecipeFeaturedView.swift in Sources */,
 				831EE69D25B0C85E00BACCDD /* Recipe.swift in Sources */,
 				831EE6C625B0E0A200BACCDD /* RecipeDetailView.swift in Sources */,
 				831EE6A325B0C99A00BACCDD /* RecipeModel.swift in Sources */,
