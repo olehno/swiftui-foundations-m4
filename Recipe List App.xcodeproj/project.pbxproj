@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1A0BB4E22959F0290073298F /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BB4E12959F0290073298F /* Rational.swift */; };
+		1A0BB4E4295A07710073298F /* RecipeHighlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0BB4E3295A07710073298F /* RecipeHighlights.swift */; };
 		1A49B68D2943C4DD003CEC96 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */; };
+		1A8F2F5829D257EB005F1ADC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F5729D257EB005F1ADC /* Constants.swift */; };
+		1A8F2F5A29D25896005F1ADC /* RecipeCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F2F5929D25896005F1ADC /* RecipeCategoryView.swift */; };
 		1ADF2DBA293EAC6C00E6F5FE /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */; };
 		831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */; };
 		831EE68225B0C74D00BACCDD /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831EE68125B0C74D00BACCDD /* RecipeListView.swift */; };
@@ -23,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		1A0BB4E12959F0290073298F /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
+		1A0BB4E3295A07710073298F /* RecipeHighlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHighlights.swift; sourceTree = "<group>"; };
 		1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
+		1A8F2F5729D257EB005F1ADC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1A8F2F5929D25896005F1ADC /* RecipeCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCategoryView.swift; sourceTree = "<group>"; };
 		1ADF2DB9293EAC6C00E6F5FE /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		831EE67C25B0C74D00BACCDD /* Recipe List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831EE67F25B0C74D00BACCDD /* Recipe_List_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_List_App.swift; sourceTree = "<group>"; };
@@ -53,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0BB4E12959F0290073298F /* Rational.swift */,
+				1A8F2F5729D257EB005F1ADC /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -105,6 +112,8 @@
 				1A49B68C2943C4DD003CEC96 /* RecipeFeaturedView.swift */,
 				831EE68125B0C74D00BACCDD /* RecipeListView.swift */,
 				831EE6C525B0E0A200BACCDD /* RecipeDetailView.swift */,
+				1A0BB4E3295A07710073298F /* RecipeHighlights.swift */,
+				1A8F2F5929D25896005F1ADC /* RecipeCategoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,11 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A49B68D2943C4DD003CEC96 /* RecipeFeaturedView.swift in Sources */,
+				1A8F2F5829D257EB005F1ADC /* Constants.swift in Sources */,
 				831EE69D25B0C85E00BACCDD /* Recipe.swift in Sources */,
+				1A0BB4E4295A07710073298F /* RecipeHighlights.swift in Sources */,
 				1A0BB4E22959F0290073298F /* Rational.swift in Sources */,
 				831EE6C625B0E0A200BACCDD /* RecipeDetailView.swift in Sources */,
 				831EE6A325B0C99A00BACCDD /* RecipeModel.swift in Sources */,
 				831EE68225B0C74D00BACCDD /* RecipeListView.swift in Sources */,
+				1A8F2F5A29D25896005F1ADC /* RecipeCategoryView.swift in Sources */,
 				831EE68025B0C74D00BACCDD /* Recipe_List_App.swift in Sources */,
 				831EE6A725B0CAD000BACCDD /* DataService.swift in Sources */,
 				1ADF2DBA293EAC6C00E6F5FE /* RecipeTabView.swift in Sources */,
@@ -349,7 +361,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe List App/Preview Content\"";
-				DEVELOPMENT_TEAM = RYRJQ978K4;
+				DEVELOPMENT_TEAM = Y965A522N6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Recipe List App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -357,7 +369,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithchris.Recipe-List-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aolehno.Recipe-List-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,7 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipe List App/Preview Content\"";
-				DEVELOPMENT_TEAM = RYRJQ978K4;
+				DEVELOPMENT_TEAM = Y965A522N6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Recipe List App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -379,7 +391,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codewithchris.Recipe-List-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aolehno.Recipe-List-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
